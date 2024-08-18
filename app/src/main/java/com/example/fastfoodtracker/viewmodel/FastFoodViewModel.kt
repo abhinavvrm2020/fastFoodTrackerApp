@@ -16,8 +16,8 @@ class FastFoodViewModel: ViewModel() {
 
     val calorieValues = mapOf(
         "Burger" to 250f,
-        "Fries" to 300f,
-        "Shake" to 150f
+        "Chicken" to 300f,
+        "Pizza" to 150f
     )
 
     fun setQuantityAndCalories(selectedQuantity: Map<String, Float>) {
